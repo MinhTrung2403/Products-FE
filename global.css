@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    line-height: normal;
+  }
+  
+  :root {
+    /* fonts */
+    --font-josefin-sans: "Josefin Sans";
+    --font-inter: Inter;
+    --font-poppins: Poppins;
+  
+    /* font sizes */
+    --font-size-11xl: 30px;
+    --font-size-xl: 20px;
+    --font-size-base: 16px;
+    --font-size-13xl: 32px;
+    --font-size-5xl: 24px;
+    --font-size-7xl: 26px;
+    --font-size-3xl: 22px;
+  
+    /* Colors */
+    --color-gray-100: #fafafa;
+    --color-gray-200: #182537;
+    --color-gray-300: rgba(0, 0, 0, 0.2);
+    --color-gray-400: rgba(0, 0, 0, 0.53);
+    --color-gray-500: rgba(0, 0, 0, 0.37);
+    --color-gray-600: rgba(0, 0, 0, 0.49);
+    --color-black: #000;
+    --color-white: #fff;
+    --color-dodgerblue-100: #2599ff;
+    --color-royalblue-100: #0964cf;
+    --color-royalblue-200: #0d5fc0;
+    --color-silver: #c2c2c2;
+    --color-forestgreen: #28942c;
+    --color-aquamarine: rgba(142, 255, 217, 0.31);
+    --color-darkslateblue: #0452ad;
+    --color-gainsboro-100: #e5e5e5;
+    --color-gainsboro-200: #d9d9d9;
+    --color-snow: #fffbfb;
+  
+    /* Border radiuses */
+    --br-4xl-5: 23.5px;
+    --br-3xs: 10px;
+    --br-7xs: 6px;
+    --br-smi: 13px;
+    --br-xs: 12px;
+    --br-3xl: 22px;
+  }
+  

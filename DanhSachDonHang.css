@@ -1,0 +1,299 @@
+.frame-child{
+    width: 320px;
+    height: 720px;
+    flex-shrink: 0;
+    background: #182537;
+  }
+  
+  .trang-ch{
+    margin: -8px;
+    background-color: #ccc;
+  }
+  
+  .icon{
+    width: 190px;
+    height: 150px;
+    margin-left: 50px;
+    margin-top: 20px;
+  }
+  .DonHang,
+  .TK,
+  .QLSP,
+  .QLTTKH,
+  .TrangChu{
+    width: 260px;
+    padding-left: 60px;
+  }
+  
+  
+  .icon-TrangChu{
+    position: absolute;
+    top: 219px;
+    left: 20px;
+  }
+  
+  .icon-DonHang{
+    position: absolute;
+    top: 280px;
+    left: 20px;
+  }
+  
+  .subnav{
+    display: none;
+  }
+  
+  .icon-DH{
+    position: absolute;
+    top: 280px;
+    left: 275px;
+  }
+  
+  .icon-ThongKe{
+    position: absolute;
+    top: 337px;
+    left: 20px;
+  }
+  
+  .icon-QuanLySanPham{
+    position: absolute;
+    top: 397px;
+    left: 20px;
+  }
+  
+  .icon-QuanLyThongTinKhachHang{
+    position: absolute;
+    top: 468px;
+    left: 20px;
+  }
+  
+  .DonHang:hover,
+  .TK:hover,
+  .QLSP:hover,
+  .QLTTKH:hover,
+  .TrangChu:hover{
+    background: #2599ff;
+    display: block;
+  }
+  
+  
+  
+  .ListText{
+    padding-top: 30px;
+    font-size: 25px;
+  }
+  
+.ListText li{
+    display: inline-block;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 260px;
+  }
+  
+.ListText i{
+    color: white;
+  }
+  
+.ListText a{
+    text-decoration: none;
+    color: white;
+    display: block;
+  }
+.logout a{
+    font-size: 20px;
+    position: absolute;
+    top: 660px;
+    left: 20px;
+    color: white;
+    text-decoration: none;
+  }
+  
+.header-DSDonHang{
+    position: absolute;
+    background-color: white;
+    height: 50px;
+    width: 1215px;
+    top: 1px;
+    left: 312px;
+}
+
+.font-header{
+    font-size: 20px;
+    padding-left: 20px;
+    margin-top: 14px;
+}
+
+.form-DSDonHang{
+    position: absolute;
+    top: 76px;
+    left: 361px;
+}
+
+.form-DSDonHang a{
+  text-decoration: none;
+
+}
+
+
+.form-DSDonHang .TaoDonHang2{
+    position: absolute;
+    left: 940px;
+    top: 3px;
+    width: 182px;
+    border-radius: 9px;
+    background-color: var(--color-dodgerblue-100);
+    height: 43px;
+}
+
+.XuatFile a{
+  color: black;
+}
+
+.form-DSDonHang .TaoDonHang2 a{
+  color: white;
+  position: absolute;
+  font-size: 20px;
+  text-align: center;
+  top: 11px;
+  left: 37px;
+}
+
+.form-DSDonHang .TaoDonHang2 i{
+  position: absolute;
+  font-size: 20px;
+  text-align: center;
+  top: 12px;
+  left: 12px;
+}
+
+.DanhSachDonHang{
+  position: absolute;
+  top: 128px;
+  left: 339px;
+  border-radius: var(--br-3xs);
+  width: 1147px;
+  height: 67px;
+}
+
+.DanhSachDonHang li{
+  display: inline-block;
+  margin-right: 30px;
+  margin-top: 6px;
+}
+
+.DanhSachDonHang li a{
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  padding-top: 10px;
+}
+
+.list-DSDonHang{
+  position: absolute;
+  top: 212px;
+  left: 337px;
+  border-radius: var(--br-3xs);
+  width: 1147px;
+  height: 477px;
+}
+
+.header-DSDonHang,
+.DanhSachDonHang,
+.list-DSDonHang{
+  background-color: var(--color-white);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.items-DSDonHang{
+  display: inline;
+  position: absolute;
+  top: -2px;
+  left: 0px;
+  border-radius: 11px;
+  background-color: var(--color-silver);
+  width: 1147px;
+  height: 45px;
+}
+
+.items-DSDonHang li{
+  display: inline-block;
+  padding-right: 20px;
+  padding-left: 50px;
+}
+
+.items-DSDonHang li #TenKhachHang{
+  padding-left: 28px;
+}
+
+.items-DSDonHang li #KhachHangPhaiTra{
+  padding-left: 40px;
+}
+
+.items-DSDonHang li #TrangThaiDonHang{
+  padding-left: 60px;
+}
+
+.List2,
+.List1{
+  position: absolute;
+  top: 60px;
+}
+
+.List2 li,
+.List1 li{
+  display: inline;
+}
+
+.List2 li p,
+.List1 li p{
+  display: inline;
+  font-size: 16px;
+}
+
+.HD{
+  margin-left: 65px;
+}
+
+.Date-time{
+  padding-left: 81px;
+}
+
+.Name-items{
+  padding-left: 85px;
+}
+
+.Number-items{
+  padding-left: 408px;
+}
+
+.box-HoanThanh{
+  padding-left: 153px;
+  position: absolute;
+  top: 0px;
+  left: 622px;
+  border-radius: var(--br-4xl-5);
+  background-color: var(--color-aquamarine);
+  border: 1px solid var(--color-forestgreen);
+  box-sizing: border-box;
+  width: 123px;
+  height: 25px;
+}
+
+.box-HoanThanh .HoanThanh{
+  position: absolute;
+  left: 42px;
+  top: -14px;
+}
+
+.Line0-DanhSachDonHang{
+  position: absolute;
+  color: red;
+  left: 20px;
+  top: 87px;
+  width: 1105px;
+}
+
+.List2{
+  position: absolute;
+  top: 110px;
+}
+

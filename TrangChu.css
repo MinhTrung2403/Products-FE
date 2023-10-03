@@ -1,0 +1,130 @@
+.frame-child{
+  width: 320px;
+  height: 720px;
+  flex-shrink: 0;
+  background: #182537;
+}
+
+.trang-ch{
+  margin: -8px;
+}
+
+.icon{
+  width: 190px;
+  height: 150px;
+  margin-left: 50px;
+  margin-top: 20px;
+}
+.DonHang,
+.TK,
+.QLSP,
+.QLTTKH,
+.TrangChu{
+  width: 260px;
+  padding-left: 60px;
+}
+
+
+.icon-TrangChu{
+  position: absolute;
+  top: 219px;
+  left: 20px;
+}
+
+.icon-DonHang{
+  position: absolute;
+  top: 280px;
+  left: 20px;
+}
+
+.subnav{
+  display: none;
+}
+
+
+.icon-DH{
+  position: absolute;
+  top: 280px;
+  left: 275px;
+}
+
+.icon-ThongKe{
+  position: absolute;
+  top: 337px;
+  left: 20px;
+}
+
+.icon-QuanLySanPham{
+  position: absolute;
+  top: 397px;
+  left: 20px;
+}
+
+.icon-QuanLyThongTinKhachHang{
+  position: absolute;
+  top: 468px;
+  left: 20px;
+}
+
+.DonHang:hover,
+.TK:hover,
+.QLSP:hover,
+.QLTTKH:hover,
+.TrangChu:hover{
+  background: #2599ff;
+  display: block;
+}
+
+
+
+.ListText{
+  padding-top: 30px;
+  font-size: 25px;
+}
+
+.ListText li{
+  display: inline-block;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  width: 260px;
+}
+
+.ListText i{
+  color: white;
+}
+
+.ListText a{
+  text-decoration: none;
+  color: white;
+  display: block;
+}
+
+.TextHome{
+  font-size: 25px;
+  position: absolute;
+  top: 180px;
+  left: 690px;
+  letter-spacing: 0.2em;
+  display: inline-block;
+  width: 672px;
+  height: 48px;
+  color: black;
+}
+
+.image{
+  position: absolute;
+  top: 220px;
+  left: 720px;
+  height: 350px;
+  object-fit: cover;
+}
+
+.logout a{
+  font-size: 20px;
+  position: absolute;
+  top: 660px;
+  left: 20px;
+  color: white;
+  text-decoration: none;
+}
+

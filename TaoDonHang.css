@@ -1,0 +1,223 @@
+body{
+    background-color: #cccc;
+}
+
+
+
+.header{
+    position: absolute;
+    top: 0;
+    left: -1px;
+    background-color: #0964CF;
+    width: 1537px;
+    height: 60px;
+}
+
+.icon-Home{
+    position: absolute;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    padding: 13px;
+    float: right;
+    padding-left: 1470px;
+}
+
+
+     
+.search button{
+    background-color: #0074D9;
+    color: #f2f2f2;
+    float: right;
+    padding: 5px 10px;
+    margin-right: 16px;
+    font-size: 12px;
+    border: none;
+    cursor: pointer;
+}
+
+*{
+    box-sizing: border-box;
+  }
+.search-box{
+    width: fit-content;
+    height: fit-content;
+    position: relative;
+    padding-left: 20px;
+    padding-top: 4px;
+
+  }
+.input-search{
+    height: 50px;
+    width: 50px;
+    border-style: none;
+    padding: 10px;
+    font-size: 15px;
+    letter-spacing: 2px;
+    outline: none;
+    border-radius: 25px;
+    transition: all .5s ease-in-out;
+    background-color: #22a6b3;
+    padding-right: 40px;
+    color:#fff;
+  }
+.input-search::placeholder{
+    color:rgba(255,255,255,.5);
+    font-size: 18px;
+    letter-spacing: 2px;
+    font-weight: 100;
+  }
+.btn-search{
+    width: 50px;
+    height: 50px;
+    border-style: none;
+    font-size: 20px;
+    font-weight: bold;
+    outline: none;
+    cursor: pointer;
+    border-radius: 50%;
+    position: absolute;
+    right: 0px;
+    color:#ffffff ;
+    background-color:transparent;
+    pointer-events: painted;  
+  }
+.btn-search:focus ~ .input-search{
+    width: 300px;
+    border-radius: 0px;
+    background-color: transparent;
+    border-bottom:1px solid rgba(255,255,255,.5);
+    transition: all 500ms cubic-bezier(0, 0.110, 0.35, 2);
+  }
+.input-search:focus{
+    width: 300px;
+    border-radius: 0px;
+    background-color: transparent;
+    border-bottom:1px solid rgba(255,255,255,.5);
+    transition: all 500ms cubic-bezier(0, 0.110, 0.35, 2);
+  }
+  
+.SanPham{
+    background-color:#fff;
+    height: 655px;
+    width: 960px;
+    top: 60px;
+    left: 1px;
+    position: absolute;
+  }
+
+.ThanhToan{
+    background-color: #fff;
+    height: 655px;
+    width: 568px;
+    top: 60px;
+    left: 968px;
+    position: absolute;
+  }
+
+.SanPham .header-SanPham ul {
+    font-size: 20px;
+}
+
+.SanPham .header-SanPham ul p{
+    display: inline;
+    margin-right: 50px;
+}
+
+.ThanhToan .Button-ThanhToan{
+    background-color: #0074D9;
+    color: white;
+    height: 83px;
+    width: 285px;
+    font-size: 30px;
+    position: absolute;
+    top: 562px;
+    left: 261px;
+    border-radius: 10px;
+}
+
+.ThanhToan .Button-ThucThanhToan{
+    background-color: #cccc;
+    color: black;
+    height: 83px;
+    width: 212px;
+    font-size: 20px;
+    position: absolute;
+    top: 562px;
+    left: 32px;
+    border-radius: 10px;
+}
+
+.search {
+    width: 100%;
+    position: relative;
+    display: flex;
+  }
+  
+.searchTerm {
+    width: 100%;
+    border: 3px solid #00B4CC;
+    border-right: none;
+    padding: 5px;
+    height: 36px;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    color: #9DBFAF;
+  }
+  
+.searchTerm:focus{
+    color: #00B4CC;
+  }
+  
+.searchButton {
+    width: 40px;
+    height: 36px;
+    border: 1px solid #00B4CC;
+    background: #00B4CC;
+    text-align: center;
+    color: #fff;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-size: 20px;
+  }
+  
+  /*Resize the wrap to see the search bar change!*/
+.wrap{
+    width: 97%;
+    position: absolute;
+    top: 7%;
+    left: 51%;
+    transform: translate(-50%, -50%);
+  }
+   
+.ThongTinThanhToan{
+    position: absolute;
+    top: 69px;
+}
+
+.Line-ThongTinThanhToan{
+    position: absolute;
+    left: 297px;
+    width: 247px
+}
+
+.ThongTinKhachTra{
+    position: absolute;
+    top: 233px;
+}
+
+.ThongTinThanhToan,
+.ThongTinKhachTra{
+    font-size: 20px;
+}
+  
+.GhiChuDonHang{
+    position: absolute;
+    top: 517px;
+    left: 30px;
+    font-size: 20px;
+}
+
+.input-GhiChu{
+    width: 490px;
+}

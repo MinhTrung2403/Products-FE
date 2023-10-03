@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <link rel="stylesheet" href="/Demo Web/icon/themify-icons/css/themify-icons.css" />
+    <link rel="stylesheet" href="/Demo Web/TaoDonHang.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Josefin Sans:wght@700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+    />
+  </head>
+  <body>
+    <div class="header">
+      <a href="/Demo Web/TrangChu.html"><i class="ti-home icon-Home"></i></a>
+      <div class="search-box">
+        <button class="btn-search"><i class="ti-search"></i></button>
+        <input type="text" class="input-search" placeholder="Tìm kiếm sản phẩm">
+      </div>
+    </div>
+    <div class="footer">
+        <div class="SanPham">
+          <div class="header-SanPham">
+            <ul>
+              <p>STT</p>
+              <p>Ảnh SP</p>
+              <p>Mã SP</p>
+              <p>Tên sản phẩm</p>
+              <p>Đơn vị tính</p>
+              <p>Số lượng</p>
+              <p>Đơn giá</p>
+            </ul>
+          </div>
+        </div>
+        <div class="ThanhToan">
+          <button class="Button-ThanhToan">THANH TOÁN</button>
+          <button class="Button-ThucThanhToan"> THAY ĐỔI THỨC THANH TOÁN</button>
+          <div class="wrap">
+            <div class="search">
+               <input type="text" class="searchTerm"   placeholder="Thêm khách hàng vào đơn">
+               <button type="submit" class="searchButton">
+                 <i class="ti-search"></i>
+              </button>
+            </div>
+         </div>
+         <div class="ThongTinThanhToan">
+          <ul>
+            <p>Tổng tiền</p>
+            <p>VAT</p>  
+            <p>Chiết khấu</p>
+          </ul>
+          <hr class="Line-ThongTinThanhToan" width="100px"  align="center" />
+         </div>
+         <div class="ThongTinKhachTra">
+          <ul>
+            <p>KHÁCH PHẢI TRẢ</p>
+            <P>Tiền đưa khách</P>
+          </ul>
+         </div>
+         <div class="GhiChuDonHang" >
+          <i class="ti-pencil-alt"></i>
+          <input class="input-GhiChu" type="Text" placeholder="Nhập ghi chú đơn hàng">
+         </div>
+        </div>
+    </div>
+  </body>
+
+    
+  </body>
+    
+    <script>
+      var rectangle1 = document.getElementById("rectangle1");
+      if (rectangle1) {
+        rectangle1.addEventListener("click", function (e) {
+          // Please sync "Tìm kiếm sản phẩm" to the project
+        });
+      }
+      
+      var iconHome = document.getElementById("iconHome");
+      if (iconHome) {
+        iconHome.addEventListener("click", function (e) {
+          window.location.href = "./TrangCh.html";
+        });
+      }
+      </script>
+  </body>
+</html>
